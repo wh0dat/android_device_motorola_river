@@ -31,6 +31,8 @@ PRODUCT_MANUFACTURER := motorola
 PRODUCT_NAME := aosp_river
 PRODUCT_MODEL := moto g(7)
 
+TARGET_BOOT_ANIMATION_RES := 2280
+
 PRODUCT_BUILD_PROP_OVERRIDES += \
         PRODUCT_NAME=river \
         PRIVATE_BUILD_DESC="river-user 9 PPOS29.114-16-5-2 6e14b release-keys"
