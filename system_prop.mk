@@ -66,7 +66,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Camera
 PRODUCT_PROPERTY_OVERRIDES += \
-    vendor.camera.aux.packagelist3="org.codeaurora.snapcam,org.lineageos.snap" \
+    vendor.camera.aux.packagelist="org.codeaurora.snapcam,org.lineageos.snap" \
     vidc.enc.dcvs.extra-buff-count=2
 
 # CNE
