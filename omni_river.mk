@@ -55,6 +55,10 @@ PRODUCT_STATIC_BOOT_CONTROL_HAL := \
     libgptutils \
     libz
 
+# Charger
+PRODUCT_PACKAGES += \
+    charger_res_images
+
 # Time Zone data for recovery
 PRODUCT_COPY_FILES += \
     system/timezone/output_data/iana/tzdata:recovery/root/system_root/usr/share/zoneinfo/tzdata
