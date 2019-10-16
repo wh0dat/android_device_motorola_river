@@ -44,6 +44,9 @@ lib64/lib-imsvtutils.so
 lib64/librcc.so
 lib64/vendor.qti.imsrtpservice@1.0.so
 
+# Location
+-priv-app/com.qualcomm.location/com.qualcomm.location.apk
+
 # Perf
 lib/libqti_performance.so
 lib/libqti-perfd-client_system.so
